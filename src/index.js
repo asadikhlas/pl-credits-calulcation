@@ -1,3 +1,5 @@
+import "core-js/stable";
+
 /**
  * Counts the number of extended GSM characters present in the given text.
  * Extended GSM characters include: ~, ^, |, \, [, ], {, }, and €.
