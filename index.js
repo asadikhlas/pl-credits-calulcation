@@ -89,5 +89,8 @@ const getCreditsCostAndStats = (
   };
 };
 
-module.exports = getCreditsCostAndStats;
-module.exports = getExtGsmCharactersCount;
+
+module.exports = {
+  getCreditsCostAndStats,
+  getExtGsmCharactersCount
+};
